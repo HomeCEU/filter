@@ -9,6 +9,16 @@
             "email": "danmcadams@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "HomeCEU\\Filter\\": "src/Filter"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HomeCEU\\Tests\\": "tests/"
+        }
+    },
     "require": {
         "psr/log": "^1.0"
     },
