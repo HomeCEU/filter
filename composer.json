@@ -1,0 +1,13 @@
+{
+    "name": "homeceu/filters",
+    "description": "A library for building filter sets",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan McAdams",
+            "email": "danmcadams@gmail.com"
+        }
+    ],
+    "require": {}
+}
