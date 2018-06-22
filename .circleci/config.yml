@@ -18,4 +18,4 @@ jobs:
       - checkout
 
       # run tests!
-      - run: php /var/www/htdocs/homeceu-filters/vendor/phpunit/phpunit/phpunit --no-configuration /var/www/htdocs/homeceu-filters/tests
+      - run: php vendor/phpunit/phpunit/phpunit --no-configuration homeceu-filters/tests
