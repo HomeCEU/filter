@@ -4,6 +4,7 @@
 namespace HomeCEU\Tests;
 
 
+use HomeCEU\Filter\Key;
 use HomeCEU\Filter\Value;
 use PHPUnit\Framework\TestCase;
 
@@ -27,8 +28,8 @@ class CriteriaTest extends TestCase
     {
         $valueArg = 'some value';
 
-        $key      = new MockKey();
-        $value    = new Value($valueArg);
+        $key   = new MockKey();
+        $value = new Value($valueArg);
 
         $criteria = new CriteriaSpy($key, $value);
         $this->assertEquals($value, $criteria->getValue());
